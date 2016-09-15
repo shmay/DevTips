@@ -12,4 +12,4 @@ Product.transaction do
 end #either all commands succeed or none do
 ```
 
-* helps to [alias](https://en.wikipedia.org/wiki/Alias_(command)) `bundle exec` to `b`
+* helps to [alias](https://en.wikipedia.org/wiki/Alias_(command)) `bundle exec` to `b`; [article](https://coderwall.com/p/my5veg/shell-alias-to-stop-writing-bundle-exec)
