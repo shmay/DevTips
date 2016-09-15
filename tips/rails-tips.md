@@ -2,3 +2,12 @@
 ``` ruby 
   Product.pluck :id,:name  #[1, "Cool shoes"], [2, "a shirt"]
 ``` 
+* AR makes it really easy to use DB transactions, which basically groups your database commands so that either they all succeed, or none of them do (get rolled back if failed); good article [here](http://vaidehijoshi.github.io/blog/2015/08/18/safer-sql-using-activerecord-transactions/) ... quick example:
+
+``` ruby
+Product.transaction do
+  @product.buy
+  @user.charge
+  @merchant.add_sale
+end #either all commands succeed or none do
+```
