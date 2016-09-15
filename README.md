@@ -8,3 +8,4 @@ So far we have tips for:
   * [Rails](https://github.com/shmay/DevTips/blob/master/tips/rails-tips.md)
   * [Unix](https://github.com/shmay/DevTips/blob/master/tips/unix-tips.md)
   * [Web Dev](https://github.com/shmay/DevTips/blob/master/tips/webdev-tips.md)
+  * [SQL](https://github.com/shmay/DevTips/blob/master/tips/sql-tips.md)
