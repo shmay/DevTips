@@ -3,7 +3,7 @@
 * learn [byebug](https://github.com/deivid-rodriguez/byebug); love byebug
 * only `false` and `nil` are falsy
 * class methods are stored in eigenclasses; see: https://gist.github.com/jfarmer/2625060
-```
+```ruby
 class << self # lets you access the eigenclass
   def blah # im a class method (instance method on the eigenclass)
   end
