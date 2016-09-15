@@ -1,5 +1,6 @@
 * CSS: know what relative/absolute positioning does
 * always use jpeg over png where possible to reduce image size
+* however if you have to use png run it through [ImageOptim](https://imageoptim.com)
 
 ### chrome dev tools
 * cmd-shift-c enables the dom inspector
