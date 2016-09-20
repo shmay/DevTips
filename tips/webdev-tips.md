@@ -1,7 +1,10 @@
+### misc
+
 * CSS: know what relative/absolute positioning does
 * always use jpeg over png where possible to reduce image size
 * however if you have to use png run it through [ImageOptim](https://imageoptim.com)
 * http://realfavicongenerator.net/ is a nice tool for generating favicons and other images you'll want for your web app
+* [http://humanstxt.org/](http://humanstxt.org/) - let people know who built the website
 
 ### chrome dev tools
 * cmd-shift-c enables the dom inspector
