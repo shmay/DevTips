@@ -10,5 +10,5 @@
 * https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d
 
 ### flexbox
-* Polymer has a good set of classes you can reuse: https://github.com/PolymerElements/iron-flex-layout/blob/master/iron-flex-layout-classes.html ... see them in action [here](https://elements.polymer-project.org/guides/flex-layout)
+* Polymer has a good set of classes that you can reuse: https://github.com/PolymerElements/iron-flex-layout/blob/master/iron-flex-layout-classes.html ... see them in action [here](https://elements.polymer-project.org/guides/flex-layout)
 * http://flexbox.io/ is a good, simple set of videos if you're just getting started with flexbox
