@@ -7,7 +7,7 @@
 * cmd-shift-c enables the dom inspector
 * cmd-shift-p brings up the command palette
 * `esc` opens/hides the bottom JS console
-* https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d
+* [Twelve Fancy Chrome DevTools Tips](https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d) - excellent article
 
 ### flexbox
 * Polymer has a good set of classes that you can reuse: https://github.com/PolymerElements/iron-flex-layout/blob/master/iron-flex-layout-classes.html ... see them in action [here](https://elements.polymer-project.org/guides/flex-layout)
