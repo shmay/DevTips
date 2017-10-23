@@ -1,3 +1,8 @@
+### basics
+* [understanding CSS's `display`][1] (via r/webdev)
+
+[1]: https://www.chenhuijing.com/blog/how-well-do-you-know-display/
+
 ### misc
 
 * CSS: know what relative/absolute positioning does
