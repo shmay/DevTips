@@ -6,7 +6,7 @@ You can pass multiple arguments to `Model.pluck`:
   Product.pluck :id,:name  #[1, "Cool shoes"], [2, "a shirt"]
 ```
 
-`pluck` is a highly useful method in general, since you're only instantiating an array of integers, not a bunch of AR objects, which is more efficient / fast in general.  Also, you can easily grab distinct IDs via (EG) `pluck('distinct(questions.id)')`.
+`pluck` is a highly useful method in general, since you're only instantiating an array of integers, not a bunch of AR objects, which is more efficient / fast.  FYI, you can easily grab distinct IDs via (EG) `pluck('distinct(questions.id)')`.
 
 ## DB Transactions with AR
 
