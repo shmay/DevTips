@@ -36,7 +36,7 @@ Note that only an exception will force a rollback, hence the need for the `!`s. 
 * **debugging:** byebug, pry, pry-byebug
 * **cron jobs:** [whenever](https://github.com/javan/whenever) - amazing DSL for cron jobs
 * **authorization:** [pundit](https://github.com/elabs/pundit) - havent used, but heard good things.
-* [Bullet](https://github.com/flyerhzm/bullet) for help to kill N+1 queries and unused eager loading
+* [Bullet](https://github.com/flyerhzm/bullet) to help kill N+1 queries and unused eager loading
 
 Also see thoughtbot's [suspenders](https://github.com/thoughtbot/suspenders) Rails template app for a bunch of sane Rails gems / defaults.
 
