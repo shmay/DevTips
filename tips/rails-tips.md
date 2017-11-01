@@ -28,6 +28,18 @@ end #either all commands succeed or none do
 
 Note that only an exception will force a rollback, hence the need for the `!`s.  More examples [here](http://api.rubyonrails.org/classes/ActiveRecord/Transactions/ClassMethods.html).
 
+## good gems
+
+* [annotate](https://github.com/ctran/annotate_models) (annotate your models)
+* **deploying:** capistrano / mina (i much prefer mina)
+* **auth:** [devise](https://github.com/plataformatec/devise) / [Sorcery](https://github.com/Sorcery/sorcery) (I prefer Sorcery for its simplicity and flexibility)
+* **debugging:** byebug, pry, pry-byebug
+* **cron jobs:** [whenever](https://github.com/javan/whenever) - amazing DSL for cron jobs
+* **authorization:** [pundit](https://github.com/elabs/pundit) - havent used, but heard good things.
+* [Bullet](https://github.com/flyerhzm/bullet) for help to kill N+1 queries and unused eager loading
+
+Also see thoughtbot's [suspenders](https://github.com/thoughtbot/suspenders) Rails template app for a bunch of sane Rails gems / defaults.
+
 ## aliasing
 
 helps to [alias](https://en.wikipedia.org/wiki/Alias_(command)) `bundle exec` to `b`; [article](https://coderwall.com/p/my5veg/shell-alias-to-stop-writing-bundle-exec).  just put `alias b="bundle exec"` in your `~/.bash_profile` (Mac) or `~/.bashrc` (Linux).  it also helps to alias commonly used commands, eg `alias rdm="bin/rails db:migrate"`
