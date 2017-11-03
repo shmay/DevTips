@@ -29,6 +29,10 @@ end #either all commands succeed or none do
 
 Note that only an exception will force a rollback, hence the need for the `!`s.  More examples [here](http://api.rubyonrails.org/classes/ActiveRecord/Transactions/ClassMethods.html).
 
+## misc
+
+* have a lot of routes?  do something like `bin/rails routes | grep questions` to help filter out routes you don't want to see
+
 ## good gems
 
 * [annotate](https://github.com/ctran/annotate_models) (annotate your models)
