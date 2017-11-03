@@ -31,7 +31,7 @@ Note that only an exception will force a rollback, hence the need for the `!`s. 
 
 ## misc
 
-* have a lot of routes?  do something like `bin/rails routes | grep questions` to help filter out routes you don't want to see
+* have a lot of routes?  use grep/ack to help filter them, eg: `bin/rails routes | grep questions`
 
 ## good gems
 
