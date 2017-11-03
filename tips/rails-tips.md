@@ -40,6 +40,8 @@ Note that only an exception will force a rollback, hence the need for the `!`s. 
 
 Also see thoughtbot's [suspenders](https://github.com/thoughtbot/suspenders) Rails template app for a bunch of sane Rails gems / defaults.
 
+Aaaaand this big ol list of good Ruby gems: https://github.com/markets/awesome-ruby
+
 ## aliasing
 
 helps to [alias](https://en.wikipedia.org/wiki/Alias_(command)) `bundle exec` to `b`; [article](https://coderwall.com/p/my5veg/shell-alias-to-stop-writing-bundle-exec).  just put `alias b="bundle exec"` in your `~/.bash_profile` (Mac) or `~/.bashrc` (Linux).  it also helps to alias commonly used commands, eg `alias rdm="bin/rails db:migrate"`
