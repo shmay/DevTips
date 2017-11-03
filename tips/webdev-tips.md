@@ -6,6 +6,7 @@
 ### misc
 
 * CSS: know what relative/absolute positioning does
+* CSS Protips: https://github.com/AllThingsSmitty/css-protips
 * always use jpeg over png where possible to reduce image size
 * however if you have to use png run it through [ImageOptim](https://imageoptim.com)
 * http://realfavicongenerator.net/ is a nice tool for generating favicons and other images you'll want for your web app
