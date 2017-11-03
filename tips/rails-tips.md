@@ -2,7 +2,8 @@
 
 [Sidekiq](https://github.com/mperham/sidekiq) will **NOT** use multiple cores by default (at least with CRuby).  Its [concurrency](https://github.com/mperham/sidekiq/wiki/Advanced-Options#concurrency) option merely sets the number of threads per core.  For CRuby, it's ["One core per process"](https://github.com/mperham/sidekiq/issues/1244#issuecomment-26136518).
 
-Luckily, Sidekiq deploy helper gems, like mina-sidekiq, often let easily you specify the number of Sidekiq processes you'd like to spin up: https://github.com/Mic92/mina-sidekiq#available-options
+Luckily, Sidekiq deploy helper gems, like 
+-sidekiq, often let easily you specify the number of Sidekiq processes you'd like to spin up: https://github.com/Mic92/mina-sidekiq#available-options
 
 ## pluck
 
@@ -31,7 +32,7 @@ Note that only an exception will force a rollback, hence the need for the `!`s. 
 ## good gems
 
 * [annotate](https://github.com/ctran/annotate_models) (annotate your models)
-* **deploying:** capistrano / mina (i much prefer mina)
+* **deploying:** capistrano / [mina](https://github.com/mina-deploy/mina) (i much prefer mina)
 * **auth:** [devise](https://github.com/plataformatec/devise) / [Sorcery](https://github.com/Sorcery/sorcery) (I prefer Sorcery for its simplicity and flexibility)
 * **debugging:** byebug, pry, pry-byebug
 * **cron jobs:** [whenever](https://github.com/javan/whenever) - amazing DSL for cron jobs
@@ -40,7 +41,7 @@ Note that only an exception will force a rollback, hence the need for the `!`s. 
 
 Also see thoughtbot's [suspenders](https://github.com/thoughtbot/suspenders) Rails template app for a bunch of sane Rails gems / defaults.
 
-Aaaaand this big ol list of good Ruby gems: https://github.com/markets/awesome-ruby
+Aaaaand this big ol list of good Ruby gems: https://github.com/markets/awesome-ruby (via https://github.com/sindresorhus/awesome)
 
 ## aliasing
 
