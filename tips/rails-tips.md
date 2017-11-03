@@ -3,7 +3,7 @@
 [Sidekiq](https://github.com/mperham/sidekiq) will **NOT** use multiple cores by default (at least with CRuby).  Its [concurrency](https://github.com/mperham/sidekiq/wiki/Advanced-Options#concurrency) option merely sets the number of threads per core.  For CRuby, it's ["One core per process"](https://github.com/mperham/sidekiq/issues/1244#issuecomment-26136518).
 
 Luckily, Sidekiq deploy helper gems, like 
--sidekiq, often let easily you specify the number of Sidekiq processes you'd like to spin up: https://github.com/Mic92/mina-sidekiq#available-options
+mina-sidekiq, often let easily you specify the number of Sidekiq processes you'd like to spin up: https://github.com/Mic92/mina-sidekiq#available-options
 
 ## pluck
 
