@@ -1,6 +1,8 @@
 ### Ruby Tips
 
-* learn [byebug](https://github.com/deivid-rodriguez/byebug); love byebug
+* learn [Pry](https://github.com/pry/pry); love Pry
+  * [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) gives Pry some step-by-step debugging capabilities
+  * [pry-rails](https://github.com/rweng/pry-rails) adds Pry to the Rails console
 * only `false` and `nil` are falsy
 * class methods are stored in eigenclasses; see: https://gist.github.com/jfarmer/2625060
 ```ruby
